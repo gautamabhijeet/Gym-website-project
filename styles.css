@@ -1,0 +1,137 @@
+*{margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    color: rgb(250, 247, 247);
+    justify-content: space-between;
+    padding:0.5px;
+    margin: 5px;
+}
+ul{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+}
+li{
+    display:flex;
+    font-size:large;
+    margin:5px;
+    padding: auto;
+}
+nav{
+    padding: 10px;
+    margin-top: 5px;}
+.logo{
+    margin-top: 1px;
+    justify-content: left;
+    display:flex;
+    
+}
+#logo{
+margin: 0%;
+    width: 60px;
+    margin-right: 5px ;
+    border-radius: 4px;
+
+}
+body{
+    background-color: rgb(23, 22, 22);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+footer{
+    background-color: #030404;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+#home{
+    padding-top: 30vh;
+    background-color: rgba(23, 22, 22, 0);;
+    color:white;
+    height: 105vh;
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+#fitness{
+    padding-top: 30px;
+    background-color:  rgb(23, 22, 22);
+    height: 105vh;
+    color:white;
+    margin: 30px;
+    margin-top: 0;
+    padding-top: 0;
+}
+#sports{
+    padding-top: 30px;
+    background-color:  rgb(23, 22, 22);;
+    height: 105vh;
+    color: white;
+    margin: 30px;
+
+}
+.service{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flx;
+    height: 65vh;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #030404a6;
+
+} 
+.facilities{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flx;
+    height: 60vh;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #030404a6;
+
+} 
+button{
+    height: 40px;
+    width: 70px;
+    font-size: large;
+}
+button{
+    width: 120px;
+    background-color: rgba(226, 21, 28, 0.841);
+    border-radius: 10px;
+    color: white;
+}
+h1{
+    margin-top: 25px;
+}
+.back-video{
+    position: absolute;
+  right: 0;
+  bottom: 0;
+    z-index: -1;
+}
+.list{
+    display: flex;
+    justify-content:space-between;
+    font-size: larger;
+}
+#options{
+    background-color: #03040400;
+}
